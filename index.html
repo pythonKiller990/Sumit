@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sumit</title>
+    <link rel="stylesheet" type="text/css" href="css/bulma.min.css"/>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <!--<link rel="stylesheet" type="text/css" href="css/debug.css">-->
+</head>
+<body>
+	<div class="hero is-fullheight" id="hero">
+		<div class="hero-body">
+    <div class="container has-text-centered">
+      <figure class="is-64x64 is-rounded">
+    
+      <img src="https://scontent.fblr9-1.fna.fbcdn.net/v/t1.0-9/70774499_795547800890713_6043832894659493888_n.jpg?_nc_cat=109&_nc_ohc=Om7op8DRlxoAX-8spRd&_nc_ht=scontent.fblr9-1.fna&oh=ad3c8939f834915a4d009b736c9cb9d2&oe=5EC3D433" width="64" height="64" style="border-radius: 50%;">
+    
+  </figure>
+      <h2 class="title is-size-1" style="color: #ffffff;">
+        I'm Sumit
+      </h2>
+      <p class="title is-size-5" style="text-transform: uppercase;color: #ffffff;">Self-taught Developer</p>
+      <p class="subtitle is-size-4 para" style="color: #ccc;">Skills:-Html5,CSS3,JS,Jquery,React,Python3,bulma,bootstrap <br>
+      	Education:-12th(Science),Diploma(CSE),BE(ISE) <br>
+      	Current City:Bangalore(India) <br>
+      	Hometwon:Karnal,Haryana(India)
+      </p>
+      
+      <a href="#" class="button is-danger is-outlined is-rounded" id="more">Show More</a><br><br><br>
+      <ul>
+      	<li><a href="#" class="button is-rounded is-outlined is-primary"><i class="fab fa-linkedin"></i></a></li>
+      	<li><a href="#" class="button is-rounded is-outlined is-primary"><i class="fab fa-facebook"></i></a></li>
+      	<li><a href="#" class="button is-rounded is-outlined is-primary"><i class="fab fa-github"></i></a></li>
+      </ul>
+      <br>
+      <footer>
+      	<p class="subtitle" style="color: #ffffff;">Made with ❤️ using bulma</p>
+      </footer>
+    </div>
+  </div>
+		
+	</div>
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+
+  	document.getElementById('more').onclick=getstatus;
+  	var con=0;
+            function check(){
+            
+            if(con==0){
+                con=1;
+            }
+            else{
+                con=0;
+            }
+            return con;
+            }
+            
+            function getstatus()
+            {
+            
+            if(check()==1)
+            {
+                $('#more').html('Show Less');
+                
+                
+            }
+            else{
+
+            	$('#more').html('Show More');
+            
+                
+                
+                
+            }
+                
+            }
+  </script>
+  <script type="text/javascript">
+  	$(document).ready(function()
+  	{
+
+  		$('#more').on('click',function()
+  		{
+  			$( ".para" ).toggle('show');
+
+
+  		});
+
+  	});
+  </script>
+
+</body>
+</html>

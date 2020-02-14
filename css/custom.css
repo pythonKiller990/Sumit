@@ -1,0 +1,33 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	
+}
+#hero
+{
+	background-image: url('https://source.unsplash.com/1600x900/?night');
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+#hero ul
+{
+	list-style: none;
+}
+
+#hero ul li
+{
+	display: inline-block;
+	margin: 15px 15px;
+	font-size: 25px;
+}
+.para
+{
+	display: none;
+}
+
+.show
+{
+	display:  inline-block;
+}
