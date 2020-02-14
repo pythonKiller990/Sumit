@@ -6,9 +6,10 @@ body
 }
 #hero
 {
-	background-image: url('https://source.unsplash.com/1600x900/?night');
+	background-image: url('https://source.unsplash.com/1600x900/?forest-night');
 	background-attachment: fixed;
 	background-size: cover;
+	background-color: #1d1d1d;
 	
 }
 #hero ul
@@ -22,6 +23,7 @@ body
 	margin: 15px 15px;
 	font-size: 25px;
 }
+
 .para
 {
 	display: none;
@@ -31,3 +33,4 @@ body
 {
 	display:  inline-block;
 }
+
